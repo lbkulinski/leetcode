@@ -2,7 +2,7 @@ package com.leetcode.p213;
 
 import java.util.Arrays;
 
-public class Solution {
+public final class Solution {
     private int robHelper(int[] numbers) {
         int[] dp = new int[numbers.length + 1];
 
